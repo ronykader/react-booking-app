@@ -7,7 +7,7 @@
 
 .headerContainer {
   width: 100%;
-  min-width: 1024px;
+  max-width: 1024px;
   margin: 20px 0px 100px 0px;
 }
 
