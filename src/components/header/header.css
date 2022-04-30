@@ -27,3 +27,30 @@
   padding: 10px;
   border-radius: 20px;
 }
+
+.headerDesc {
+  margin: 20px 0px;
+}
+
+.headerBtn {
+  background-color: #0071c2;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.headerSearch {
+  height: 30px;
+  background-color: #fff;
+  border: 3px solid orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+  border-radius: 5px;
+}
+
+.headerIcon {
+  color: lightgray;
+}
