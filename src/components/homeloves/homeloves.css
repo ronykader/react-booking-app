@@ -1,0 +1,32 @@
+.homeLoves {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 1;
+}
+
+.homeLovesItem {
+  position: relative;
+  color: white;
+  /* overflow: hidden; */
+  height: 250px;
+}
+
+.homeLovesImg {
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
+}
+
+.homeLovesTitles > p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #262626;
+}
+.homeLovesTitles > h2 {
+  font-size: 14px;
+  font-weight: 300;
+  color: black;
+}

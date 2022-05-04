@@ -6,9 +6,9 @@ import List from "./pages/list/List";
 function App() {
   return (
     <div>
-        
         <BrowserRouter>
           <Routes>
+            <Route path="/" element={<Home/>} />
             <Route path="/home" element={<Home/>} />
             <Route path="/hotels" element={<List/>} />
             <Route path="/hotels/:id" element={<Hotel/>} />
